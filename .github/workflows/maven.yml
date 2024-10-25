@@ -40,7 +40,7 @@ jobs:
           image: krsanjiet/springboot-cicd-image
           tags: latest
           registry: docker.io
-          dockerfile: Dockerfile.ci
+          dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
